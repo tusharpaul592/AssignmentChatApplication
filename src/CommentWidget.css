@@ -1,0 +1,86 @@
+.comment-input,
+.reply-input {
+  width: 100%;
+  padding: 2px;
+}
+
+.comment-content,
+.reply-content {
+  display: flex;
+  flex-direction: column;
+}
+gin-l .comment-timestamp,
+.reply-timestamp {
+  margin-top: 5px;
+  color: #888;
+}
+
+.comment {
+  margin-bottom: 10px;
+}
+
+.reply {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.comment-buttons,
+.reply-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.comment-actions,
+.reply-actions {
+  margin-left: auto;
+}
+
+.comment-form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.btn-save,
+.btn-edit,
+.btn-delete,
+.btn-reply,
+.btn-comment {
+  border: none;
+  padding: 5px 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-save {
+  background-color: transparent;
+  border: 2px solid #007bff;
+  color: #007bff;
+}
+
+.btn-edit {
+  background-color: transparent;
+  border: 2px solid rgb(111, 168, 227);
+  color: rgb(111, 168, 227);
+}
+
+.btn-delete {
+  background-color: transparent;
+  border: 2px solid rgb(229, 141, 141);
+  color: rgb(229, 141, 141);
+}
+
+.btn-comment {
+  background-color: transparent;
+  size: small;
+  border: 2px solid rgb(25, 118, 210);
+  color: rgb(25, 118, 210);
+  margin-left: 20px;
+}
+.btn-reply {
+  background-color: transparent;
+  size: small;
+  border: 2px solid rgb(25, 118, 210);
+  color: rgb(25, 118, 210);
+}
